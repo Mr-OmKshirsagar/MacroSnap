@@ -21,7 +21,7 @@ def get_twilio_client():
 
 twilio_client = get_twilio_client()
 gemini_client = get_gemini_client()
-MODEL_NAME="gemini-3.8-flash"
+MODEL_NAME="gemini-3.5-flash"
 
 def render_message(message):
     with st.chat_message(message["role"]):
